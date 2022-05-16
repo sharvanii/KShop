@@ -8,11 +8,15 @@
 </head>
 <body>
     <header>
-        <h1>KShop</h1>
+        <nav>
+            <ul> 
+                <li><a href="home.html">Home</a></li> 
+            </ul> 
+        </nav>
     </header>
     <h2>20% off on first order!</h2>
-    <img src="images/image.jpeg">
-    <form class="f1"> 
+    <h2>Sign up and explore our products!</h2>
+    <form class="flex1" id="register-form"> 
         <label for="fname"> First Name :</label>
         <input class="textbox" type="text" name="fname" id="fname">
         <br>
@@ -28,18 +32,22 @@
         <label for="pswd">Password :</label>
         <input class="textbox" type="password" name="pswd" id="pswd">
         <br>
-        <label for="pswd">Confirm Password : </label>
-        <input class="textbox" type="password" name="pswd" id="pswd">
+        <label for="psw">Confirm Password : </label>
+        <input class="textbox" type="password" name="psw" id="psw">
         <br>
         <br>
-        <input class="textbox" type="button" value="Register">
+        <input class="textbox" type="submit" value="Register">
         <br>
     </form>
-    <form class="f2">
+    <form class="flex2">
         <h4>
             Already registered?
         </h4>
-        <a href='login.html'> Login here </a>
-    </form> 
+        <a href='login.html' class="textbox" type="submit" value="Login"> Login here </a>
+    </form>
+    <footer>
+        <h3>Happy Shopping!</h3>
+    </footer>
+    <script src="validation.js"></script>
 </body>
 </html>

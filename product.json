@@ -1,0 +1,26 @@
+[
+  {
+    "name" : "BTS Albums",
+    "price" : 60.00,
+    "image" : "BTS Albums.jpeg",
+    "type" : "Music"
+  },
+  {
+    "name" : "Photocards",
+    "price" : 9.99,
+    "image" : "Photocards.jpeg",
+    "type" : "Photocards"
+  },
+  {
+    "name" : "Armybomb",
+    "price" : 20.00,
+    "image" : "Armybomb.jpeg",
+    "type" : "Device"
+  },
+  {
+    "name" : "BT21",
+    "price" : 30.00,
+    "image" : "BT21.jpeg",
+    "type" : "Toys"
+  }
+]

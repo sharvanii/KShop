@@ -1,36 +1,71 @@
+/*header*/ 
 header {
-   text-align: center;
-   font: normal;
-   background-color: rgb(138, 175, 150);
-  } 
+  background-image: url(bts.jpeg);
+  background-size: cover;
+  height: 50vh;
+  background-attachment: fixed;
+  }
+ul{
+    top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.7);
+ }
+li{
+    display: inline;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: black;
+    text-transform: uppercase;
+  }
+a {
+    float: left;
+    display: block;
+    color:  black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+a:hover {
+    background-color: black;
+    color: whitesmoke;
+}
 body{
-  background-color: #cbebd9;
+  background-color: #000a0a;
 }
-h2{
+p{
   text-align: center;
-  color: rgb(61, 61, 11);
+  color: rgb(255, 255, 252);
 }
-.f1{
+.main-img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  float: left;
+}
+.flex1{
   max-width: 300px;
-	background: #e6ecea;
+	background: #fefefe;
 	padding: 30px;
 	margin: 50px auto;
 	box-shadow: 1px 1px 25px rgba(2, 26, 10, 0.35);
 	border-radius: 10px;
-	border: 6px solid #305A72;
+	border: 6px solid #feffff;
 }
-.f2{
+.flex2{
   max-width: 450px;
 	background: #e6ecea;
-	padding: 30px;
+	padding: 70px;
 	margin: 50px auto;
 	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
 	border-radius: 10px;
-	border: 6px solid #305A72;
+	border: 6px solid #010e15;
 }
 .textbox {
   font-style: icon;
-	border: 1px solid #445c5b;
+	border: 1px solid #000a0a;
 	border-radius: 30px;
 	outline:0;
 	height:25px;
@@ -38,13 +73,43 @@ h2{
 	padding-left:10px;
 	padding-right:10px;
 }
-.f3{
+.flex3{
     max-width: 400px;
     background: #e6ecea;
     padding: 100px;
     margin: 40px auto;
-    box-shadow: 1px 1px 25px rgba(2, 26, 10, 0.35);
-    border-radius: 10px;
-    border: 6px solid #305A72;
+    border-radius: 20px;
+    border: 6px solid #010e15;
 }
- 
+button {
+  padding: 10px;
+  width: 200px;
+  position: absolute;
+  left: 45%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 60px;
+  top: 40%;
+  margin: 20px;
+}
+.product {
+  margin: 10px;
+  width: 200px;
+  border: 2px solid #305A72;
+  border-radius: 10px;
+  padding: 20px;
+}
+/*footer*/
+footer {
+  height: 50px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.906);
+  color: rgb(29, 16, 122);
+  text-transform: uppercase;
+}
+
