@@ -20,3 +20,5 @@ function getProduct(e) {
   })
   .catch((err) => console.log(`Error: ${err}`));
 }
+
+export {postData };

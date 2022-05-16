@@ -5,11 +5,11 @@ function login(e) {
   e.preventDefault();
   let username = document.getElementById("username").value;
   let pswd = document.getElementById("pswd").value;
-  console.log(username + " " + pswd)
-  fetchData('login', {username: username, password: pswd})
+  fetchData('/customer/login', {username: username, password: pswd}, "POST")
   .then((data) => {
       if(!data.message) {
-          window.location.href="home.html";
+          setCurrentCustomer(data);
+          window.location.href="login.html";
       }
   }
   )
@@ -17,10 +17,9 @@ function login(e) {
       let error = err.message;
       let p = document.querySelector("#login-form");
       p.innerText = error;
-
+      console.log('Error!  ${errText}')
   }
   )
-
 }
 
 let regForm = document.getElementById("register-form");
@@ -36,10 +35,11 @@ function register(e) {
   console.log(fname + " " + lname + " "+ email + " "+ username + " " + pswd )
 
   fetchData('register', {username: username, password: pswd, firstname: fname, lastname: lname, emailid: email })
+  postData('http://localhost:3000/customer/register',{username: username, password: pswd})
   .then((data) => {
     if(!data.message) {
       setCurrentUser(data);
-      
+      window.location.href = "home.html";
     }
   })
   .catch((error) => {
