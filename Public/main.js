@@ -1,4 +1,4 @@
-let KpopProduct = document.getElementById("product");
+let product = document.getElementById("product");
 document.getElementById("btn-product").addEventListener('click', getProduct);
 
 function getProduct(e) {
@@ -15,10 +15,10 @@ function getProduct(e) {
            <p>Type: ${item.type}</p>
          </div>  
        `;
-      KpopProduct.innerHTML += section;
+      product.innerHTML += section;
     })
   })
   .catch((err) => console.log(`Error: ${err}`));
 }
 
-export {postData };
+export {postData};
