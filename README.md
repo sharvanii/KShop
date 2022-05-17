@@ -17,5 +17,5 @@ I used :
 ## Database
 `MYSQL`
 # Screenshots
-[](...Project/public/images)
+[](
 
