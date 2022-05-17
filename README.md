@@ -5,7 +5,7 @@ Currently, my 'see products" link is not working in the products page. I will tr
 # Technologies
 ## Front-end
 I used :
-`HTML`#
+`HTML`
 `CSS`
 `JAVASCRIPT`
 ## Back-end
@@ -17,5 +17,5 @@ I used :
 ## Database
 `MYSQL`
 # Screenshots
-[](/Users/laxmisharvani/Desktop/Project/public/images)
+[](...Project/public/images)
 
