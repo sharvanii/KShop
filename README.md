@@ -20,10 +20,10 @@ I used :
 Home Page
 ![](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.05.41%20PM.png)
 Registration page
-![]https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.06.00%20PM.png)
-![]https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.06.19%20PM.pn)
+![](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.06.00%20PM.png)
+![](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.06.19%20PM.pn)
 Login Page
-![]https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.06.36%20PM.png)
+![](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.06.36%20PM.png)
 Products Page
-![]https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.06.45%20PM.png)
+![](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.06.45%20PM.png)
 
