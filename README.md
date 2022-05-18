@@ -16,14 +16,30 @@ I used :
 `JAVASCRIPT`
 ## Database
 `MYSQL`
+The latest version of mysql is downloaded from their website.
+# Instructions 
+You probably need the latest version of Chrome, and text editor.
+
+chrome: ![](https://www.google.com/chrome/)
+I use VSCode : ![](https://code.visualstudio.com/)
+Also use node.js : ![](https://nodejs.dev/)
+After installing node js go to the terminal in the project folder and then initialize it. I will add the further instructions soon. 
+download
+
+# ERD
+![](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.30.03%20PM.png)
+Each entity has various attributes. The enitities will be the primary keys in the database and the id's which are in other entities will be the foriengn keys.
 # Screenshots
 Home Page
 ![](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.05.41%20PM.png)
 Registration page
 ![](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.06.00%20PM.png)
-![](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.06.19%20PM.pn)
+![](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.06.19%20PM.png)
 Login Page
 ![](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.06.36%20PM.png)
 Products Page
 ![](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.06.45%20PM.png)
-
+# Developer
+Laxmi Sharvani
+# Message
+Feel free to download my project and change according to your needs.
