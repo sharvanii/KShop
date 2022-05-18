@@ -17,5 +17,5 @@ I used :
 ## Database
 `MYSQL`
 # Screenshots
-[](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.05.41%20PM.png)
+![](https://github.com/sharvanii/KShop/blob/main/Public/images%20/Screen%20Shot%202022-05-17%20at%206.05.41%20PM.png)
 
