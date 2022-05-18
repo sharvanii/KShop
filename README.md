@@ -20,7 +20,7 @@ The latest version of mysql is downloaded from their website.
 # Instructions 
 You probably need the latest version of Chrome, and text editor.
 
-chrome [](https://www.google.com/chrome/)
+chrome ![](https://www.google.com/chrome/)
 I use VSCode ![](https://code.visualstudio.com/)
 Also install node.js ![](https://nodejs.dev/)
 After installing node js go to the terminal in the project folder and then initialize it. I will add the further instructions soon. 
